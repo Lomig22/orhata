@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ORHATA - Contactez-nous pour discuter de votre projet de transmission">
+    <title>Contact - ORHATA</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">ORHATA</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">ORHATA</a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="notre-projet.html">Notre projet</a></li>
+                    <li><a href="equipe.html">L'équipe</a></li>
+                    <li><a href="approche.html">Notre approche</a></li>
+                    <li><a href="transmission-investisseurs.html">Transmission & Investisseurs</a></li>
+                    <li><a href="contact.html" class="btn-contact active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact</h1>
+            <p>Entrer en discussion confidentielle sur votre projet de transmission</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section class="content-section">
+        <div class="container">
+            <div class="text-content" style="max-width: 700px; margin: 0 auto var(--spacing-lg); text-align: center;">
+                <p class="lead">
+                    Nous sommes à votre écoute pour échanger de manière confidentielle sur votre situation 
+                    et explorer ensemble les opportunités de transmission.
+                </p>
+                <p>
+                    Tous nos échanges sont strictement confidentiels. Nous respectons votre temps et votre 
+                    processus de décision, et nous nous engageons à vous répondre dans les plus brefs délais.
+                </p>
+            </div>
+
+            <div class="form-container">
+                <form id="contact-form" method="POST" action="#">
+                    <div class="form-group">
+                        <label for="name">Nom et prénom *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Entreprise</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Sujet *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Sélectionnez un sujet</option>
+                            <option value="transmission">Transmission d'entreprise</option>
+                            <option value="investissement">Partenariat investisseur</option>
+                            <option value="information">Demande d'information</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Décrivez brièvement votre situation ou votre demande..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; gap: var(--spacing-xs); font-weight: 400;">
+                            <input type="checkbox" name="confidentiality" required style="width: auto;">
+                            <span>J'accepte que mes données soient traitées de manière confidentielle *</span>
+                        </label>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="text-content" style="max-width: 700px; margin: var(--spacing-lg) auto 0; text-align: center;">
+                <p style="color: var(--color-text-light); font-size: 0.9375rem;">
+                    <strong>Confidentialité :</strong> Toutes les informations que vous nous transmettez sont 
+                    traitées de manière strictement confidentielle. Nous ne partageons vos données avec aucun 
+                    tiers sans votre consentement explicite.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ORHATA</h3>
+                    <p>Entrepreneurs repreneurs au service de la transmission et de la croissance durable des PME françaises.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="notre-projet.html">Notre projet</a></li>
+                            <li><a href="equipe.html">L'équipe</a></li>
+                            <li><a href="approche.html">Notre approche</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Informations</h4>
+                        <ul>
+                            <li><a href="transmission-investisseurs.html">Transmission & Investisseurs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ORHATA. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
