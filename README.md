@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ORHATA - Site Web Institutionnel
 
 Site web institutionnel premium pour ORHATA, structure de reprise et de transmission de PME en France.
@@ -161,3 +162,6 @@ Le site est entièrement responsive avec des breakpoints pour :
 ## 📄 Licence
 
 © 2024 ORHATA. Tous droits réservés.
+=======
+# orhata
+>>>>>>> bf3a553921d24bbb1bb5e7dc0e17352ea7627cba
